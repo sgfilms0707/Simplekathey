@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header {
+    background-color: #010000;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.logo-text {
+    margin-left: 1rem; 
+}
+
+nav a {
+    color: #ff0000;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: url('your-film-banner.jpg') no-repeat center center/cover; 
+    color: #ffffff;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+.content {
+    padding: 2rem;
+    display: flex; 
+    justify-content: center; 
+} 
+
+.movie-container {
+    /* No need for flex-wrap or justify-content since there's only one item */
+}
+
+.movie-item {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-item img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-item .info {
+    padding: 1rem;
+}
+
+.movie-item .info h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+}
+
+.movie-item .info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+footer {
+    background-color: #000000;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.description {
+    font-size: 1rem;
+    margin: 20px 0;
+    color: #555;
+}
+
+.payment-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.payment-link:hover {
+    background-color: #0056b3;
+}
+.play-now-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Stencil Std', sans-serif; /* Add Stencil Std font */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-now-link:hover {
+    background-color: #3e8e41; /* Darker Green on hover */
+  }
